@@ -1,6 +1,5 @@
 # 📦 ML Model Deployment
 
-## 📌 Project Overview
 
 **ML_Model_deployment** demonstrates how to take a trained machine learning model from development into a deployed web application.  
 This repository includes a deployed app that exposes a machine learning model as a usable service — complete with API endpoints and a user interface for making predictions.
