@@ -29,25 +29,5 @@ The main goal of this project is to:
 - Uses **Flask** or **FastAPI** (depending on implementation) to host the model.
 - Defines routes/endpoints that accept JSON or form data as input.
 
-### 🪄 3. API Interface
-- Model is wrapped inside an API.
-- Front-end or external apps send requests and receive predictions in real time.
 
-### 🧩 4. Request-Response Control Flow
-- **POST** endpoints receive input features.
-- Input is validated and preprocessed.
-- The model predicts and response is returned to the client.
 
----
-
-## 🛠️ Technologies & Libraries Used
-
-| Category | Tools / Libraries |
-|----------|------------------|
-| Backend | Python, Flask / FastAPI |
-| Model Serialization | Pickle, joblib |
-| ML Libraries | scikit-learn, TensorFlow, PyTorch (depending on model used) |
-| API Testing | Postman / curl |
-| Front-end (Optional) | HTML, CSS, JavaScript |
-
----
